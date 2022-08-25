@@ -14,6 +14,7 @@ html {
 body,
 #header {
     min-width: 350px;
+    background-color: #131313;
 }
 
 .container {
@@ -27,20 +28,20 @@ body,
 
 h2 {
     font-size: 3rem;
-    color: #29323c;
+    color: #ffffff;
     text-transform: uppercase;
     margin: 5% 0 5% 0;
 }
 
 h2 span {
-    color: rgb(20, 27, 220);
+    color: #ff3434;
 
 }
 
 /* Hero section */
 
 #hero {
-    background-image: url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80);
+    background-image: url(img/capa\ feira\ de\ historia.png);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -128,12 +129,13 @@ h2 span {
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, rgb(20, 27, 220, 0.716) 0%, rgba(20, 27, 220, 0.716) 100%);
+    background-image: linear-gradient(60deg, rgba(170, 7, 7, 0.716) 0%, rgba(147, 36, 21, 0.716) 100%);
     z-index: -1;
 }
 
 #projects .project-card .project-info p {
-    text-align: left;
+    padding: 40px;
+    text-align: center;
 }
 
 #projects .project-card:nth-child(even) {
@@ -203,6 +205,7 @@ h2 span {
 #contact .copyright p {
     margin-top: 10px;
     padding-top: 10px;
+    color: white;
 }
 
 /* Media query for small screens(1300px) */

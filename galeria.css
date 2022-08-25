@@ -1,13 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
 }
 
 .categories {
@@ -35,13 +30,13 @@ body {
 }
 
 .categories button:hover {
-    border: 2px solid #aaa;
-    color: #999;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 .categories button:focus {
-    border: 2px solid #3498ff;
-    color: #3498ff;
+    border: 2px solid #ff3434;
+    color: #ff3434;
 }
 
 .contenedor {
@@ -55,14 +50,14 @@ body {
 .subtitulo {
     text-align: center;
     font-weight: 700;
-    color: #9f8ad0;
+    color: #ff3434;
     margin-bottom: 40px;
     font-size: 40px;
 }
 
-.gallery {
-    background: #f2f2f2;
-}
+/* .gallery {
+    background: #8b8989;
+} */
 
 .contenedor-galeria{
     display: flex;
